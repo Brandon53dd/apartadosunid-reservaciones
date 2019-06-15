@@ -1,5 +1,5 @@
 <?php 
-include '_db.php';
+
 $url = htmlspecialchars($_SERVER['HTTP_REFERER']);
 $cpsid ='23';
 $usrid = '1';

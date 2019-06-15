@@ -1,7 +1,7 @@
 <?php 
 
-$usuariosNom = $db->select('usuarios', 'usr_nombre',);
-$usuariosApp = $db->select('usuarios', 'usr_appat',);
+$usuariosNom = $db->select('usuarios', 'usr_nombre');
+$usuariosApp = $db->select('usuarios', 'usr_appat');
 $IDusuario = $db->select('usuarios', 'usr_id');
 for ($i=0; $i < count($usuariosNom); $i++) 
 	{ 

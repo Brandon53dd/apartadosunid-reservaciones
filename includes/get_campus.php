@@ -1,4 +1,3 @@
-
 <?php 
 
 $campusNom = $db->select('Campus', 'cps_nombre');

@@ -4,7 +4,7 @@
     <script type="text/javascript">
     function showContent() {
         element = document.getElementById("accesory");
-        check = document.getElementById("cbox1");
+        check = document.getElementById("accesorychkbx");
         if (check.checked) {
             element.style.display='block';
         }
@@ -200,7 +200,7 @@
                                  <section>
                                     <div>
                                     <h5>¿Necesitas un accesorio adicional?</h5>
-                                        <label><input type="checkbox" id="cbox1" value="first_checkbox" onchange="javascript:showContent()"  />Agregar Accesorio</label>
+                                        <label><input type="checkbox" id="accesorychkbx" value="accesorychkbx" onchange="javascript:showContent()"  />Agregar Accesorio</label>
                                     </div>
                                  <div id="accesory" style="display: none">
                                          <select name="accesor" id="accesor" class="select2 form-control m-t-1¨5" required style="height: 36px;width: 100%;">
