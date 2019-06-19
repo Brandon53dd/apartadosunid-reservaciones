@@ -97,9 +97,6 @@
                             </tfoot>
                         </table>
                     </div>
-                    <?php 
-                        include "../../includes/generate_rsv.php";
-                     ?>
                 </div>
             </div>
         </div>
@@ -125,7 +122,7 @@
                 <div class="card">
                     <div class="card-body wizard-content">                        
                         <h6 class="card-subtitle"></h6>
-                        <form id="example-form" action="../../includes/generate_rsv.php" method="POST" class="m-t-40">
+                        <form id="example-form" method="POST" class="m-t-40">
                             <div>
                                 <h3>Fecha de Reserva</h3>
                                 <section>
@@ -175,7 +172,7 @@
                                             <div class="col-md-3">
                                                 <h5>Hora de inicio *</h5>
                                                 <div class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
-                                                    <input for="startHour" type="text" name="timeIn" class="form-control" value="07:00">
+                                                    <input for="startHour" type="text" id="timeIn" name="timeIn" class="form-control" value="07:00">
                                                     <span class="input-group-addon">
                                                         <span class="glyphicon glyphicon-time"></span>
                                                     </span>
@@ -184,7 +181,7 @@
                                            <div class="col-md-3">
                                                 <h5>Hora de finalización *</h5>
                                                 <div class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
-                                                    <input for="finishHour" type="text" name="timeOut" class="form-control" value="09:00">
+                                                    <input for="finishHour" type="text" id="timeOut" name="timeOut" class="form-control" value="09:00">
                                                     <span class="input-group-addon">
                                                         <span class="glyphicon glyphicon-time"></span>
                                                     </span>
@@ -223,7 +220,7 @@
                                     <p>(*) Obligatorio</p>
                                 </section>
                             </div>
-                            <button type="submit" class="btn btn-primary">Reservar</button>
+                            <button id="btngeneratersv" class="btn btn-primary">Reservar</button>
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
                         </form>
                     </div>

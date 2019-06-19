@@ -329,6 +329,7 @@ if(!isset($_COOKIE['lau'])|| $_COOKIE['lau']==0 ||$_SESSION['TYPE'] !=1 ){
      <script src="./proyectores/main_proyectores.js"></script>
      <script src="./accesorios/main_accesorios.js"></script>
     <script src="./estados/main_estados.js"></script>
+    <script src="./reservar/main_reserv.js"></script>
 <!--     <script src="./niveles/main_nivel.js"></script>-->
     <script>
         function close_session(){
